@@ -1,8 +1,3 @@
-# VLM_study
-Vision Language Model study
-
-1. Jingyi Zhang, Jiaxing Huang, Sheng Jin, Shijian Lu, Vision-Language Models for Vision Tasks: A Survey
-
 ### VLM foundation
 
 - 10(CLIP), 17(Representation learning)
@@ -75,3 +70,22 @@ Vision Language Model study
 ### 5.3 VLM Pre-training with Alignment Objectives
 
 - 5.3.1 Image-Text Matching
+    - 42(FLAVA), 71, 72 중 1
+- 5.3.2 Region-Word Matching
+    - 67(GLIP), 71(FIBER), 45(DetCLIP) 중 1
+
+### 6 VLM Transfer learning
+
+- 6.3.1 Transfer via prompt tuning
+    - Transfer with Text Prompt Tuning
+        - 31(CoOp)
+    - Transfer with Visual Prompt Tuning
+        - 148, 166 중 1
+    - Transfer with Text-Visual Prompt Tuning
+        - 149(UPT)
+- 6.3.2 Transfer via Feature Adaptation
+    - 33(Clip-adapter)
+- 6.3.3 Other Transfer Methods
+    - pass
+
+### 7. VLM Knowledge Distillation
