@@ -16,7 +16,7 @@
     - **Image contrastive**
         - **64** : Self-supervision meets language-image pretraining(2022)
     - **Image-text contrastive**
-        - **~~10** : CLIP~~
+        - ~~**10** : CLIP~~
     - **Image-text-label contrastive**
         - **65** : Unified contrastive learning in image-text-label space(2022)
 - Generative objectives
