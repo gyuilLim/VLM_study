@@ -41,10 +41,10 @@
 
 - **Two-tower**
     - **~~CLIP(10)~~**
-    - **~~17** : Scaling up visual and vision-language representation learning with noisy text supervision(2021)~~
+    - ~~**17** : Scaling up visual and vision-language representation learning with noisy text supervision(2021)~~
 - **Two-leg(중 1)**
-    - **~~19** : Coca: Contrastive captioners are image-text foundation models(2022)~~
-    - **~~42 :** Flava: A foundational language and vision alignment model(2022)~~
+    - ~~**19** : Coca: Contrastive captioners are image-text foundation models(2022)~~
+    - ~~**42 :** Flava: A foundational language and vision alignment model(2022)~~
 - **One-tower(중 1)**
     - **43** : Image-and-language understanding from pixels only(2022)
     - **44** :  Unifying vision-language representation space with single-tower transformer(2023)
@@ -69,7 +69,7 @@
 ### 5.1 VLM PRE-TRAINING with Contrastive Objectives
 
 - 5.1.1 Image CL
-    - **~~Image contrastive(64)** : Slip: Self-supervision meets language-image pre-training(2022)~~
+    - ~~**Image contrastive(64)** : Slip: Self-supervision meets language-image pre-training(2022)~~
 - 5.1.2 Image-Text CL
     - **Efficient VLM pre-trainng with much less image-text pairs(중 1)**
         - **112** : Data efficient language-supervised zero-shot recognition with optimal transport distillation(2021)
@@ -92,11 +92,11 @@
     - **~~41~~**
     - **70** : Beit: Bert pre-training of image transformers(2021)
 - 5.2.2 Masked Lanuage Modelling
-    - **~~71** : Coarse-to-fine vision-language pre-training with fusion in the backbone~~
+    - ~~**71** : Coarse-to-fine vision-language pre-training with fusion in the backbone~~
 - 5.2.3 Masked Cross-Modal Modelling
     - **~~42~~**
 - 5.2.4 Image-to-Text Generation
-    - **~~19** : Coca: Contrastive captioners are image-text foundation models(2022)~~
+    - ~~**19** : Coca: Contrastive captioners are image-text foundation models(2022)~~
     - **123** : Nlip: Noise-robust language-image pre-training(2022)
     - **83** : Pali: A jointly-scaled multilingual language-image model(2022)
 
@@ -105,11 +105,11 @@
 - 5.3.1 Image-Text Matching(중 1)
     - **~~42~~**
     - **~~71~~**
-    - **~~72** : Vlmo: Unified vision-language pre-training with mixture-of-modality-experts(2021)~~
+    - ~~**72** : Vlmo: Unified vision-language pre-training with mixture-of-modality-experts(2021)~~
 - 5.3.2 Region-Word Matching(중 1)
-    - **~~67** : Grounded language-image pre-training(2022)~~
-    - **~~71** : Coarse-to-fine vision-language pre-training with fusion in the backbone~~
-    - **~~45** : Detclip: Dictionary-enriched visual-concept paralleled pre-training for open-world detection~~
+    - ~~**67** : Grounded language-image pre-training(2022)~~
+    - ~~**71** : Coarse-to-fine vision-language pre-training with fusion in the backbone~~
+    - ~~**45** : Detclip: Dictionary-enriched visual-concept paralleled pre-training for open-world detection~~
 
 ### 6 VLM Transfer learning
 
