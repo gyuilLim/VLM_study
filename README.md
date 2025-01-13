@@ -10,6 +10,7 @@
 
 - Contrastive objectives
     - **InfoNCE Loss(68)** : Representation learning with contrastive predictive coding(2018)
+    - **NCE Loss(68)** : Noise-contrastive estimation: A new estimation principle for unnormalized statistical models(2010)
     - **contrastive representeation learning**
         - **12** : Momentum contrast for unsupervised visual repre-sentation learning(2020)
     - **Image contrastive**
