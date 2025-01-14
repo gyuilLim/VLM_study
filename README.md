@@ -8,7 +8,7 @@ Vision Language Models are at the forefront of artificial intelligence, merging 
 
 ## Repository Contents
 
-- **Research Papers**: A collection of significant papers that have contributed to the field of VLM.
+- **[Research Papers](/Research_paper.md)**: A collection of significant papers that have contributed to the field of VLM.
 - **Concepts**: Important theories, terminologies, and frameworks that are essential for understanding VLM.
   - **[Linear Algebra](Concepts/Linear_Algebra.md)**: Key concepts of linear algebra necessary for understanding VLM.
   - **[Probability and Statistics](Concepts/Probability_Statistics.md)**: Fundamental probability and statistics concepts relevant to VLM.
