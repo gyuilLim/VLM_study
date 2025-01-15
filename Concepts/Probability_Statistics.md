@@ -75,6 +75,7 @@ $\mathbb E[X] = 0 \cdot (1-p) + 1 \cdot p = p$ 이고
 분산은 다음과 같이 계산된다.
 
 $Var(x) = \mathbb E[X^2] - (\mathbb E[X])^2 = p - p^2 = p(1-p)$
+
 ---
 
 ### Laplace Distribution(라플라스 분포)
@@ -89,9 +90,11 @@ $$f(x) = \frac{1}{2b} \exp [\frac{-|x-\mu|}{b}]$$
 
 - 평균 : $\mu$, 분산 : $2b^2$, 표준편차 : $\sqrt2 b$, 이 때 $b$는 스케일 상수라고도 함 
 
-- 라플라스 분포는 확률 밀도 함수기 때문에 적분했을 때 1이 된다. 절대값을 포함하기 때문에, 구간을 나누어서 적분해야한다.
-
-
+- 라플라스 분포는 확률 밀도 함수기 때문에 적분했을 때 1이 된다. 절대값을 포함하기 때문에, 구간을 나누어서 적분해야한다.  
+  
+  
+  
+  
 $x \ge 0$ 의 경우
 
 $\int^\infty_0 \frac{1}{2b}\exp (\frac{x}{b})dx = \frac{1}{2b}\int^\infty_0\exp(-\frac{x}{b})dx = \frac{1}{2b}[-b \exp (-\frac{x}{b})]^\infty_0 = \frac{1}{2}$
