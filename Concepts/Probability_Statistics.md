@@ -96,13 +96,13 @@ $$f(x) = \frac{1}{2b} \exp [\frac{-|x-\mu|}{b}]$$
 
 
   
-$x \ge 0$ 의 경우
+- $x \ge 0$ 의 경우
 
-$\int^\infty_0 \frac{1}{2b}\exp (\frac{x}{b})dx = \frac{1}{2b}\int^\infty_0\exp(-\frac{x}{b})dx = \frac{1}{2b}[-b \exp (-\frac{x}{b})]^\infty_0 = \frac{1}{2}$
+$$\int^\infty_0 \frac{1}{2b}\exp (\frac{x}{b})dx = \frac{1}{2b}\int^\infty_0\exp(-\frac{x}{b})dx = \frac{1}{2b}[-b \exp (-\frac{x}{b})]^\infty_0 = \frac{1}{2}$$
 
-$x < 0$ 의 경우
+- $x < 0$ 의 경우
 
 
-$\int^0_{-\infty} \frac{1}{2b}\exp (\frac{x}{b})dx = \frac{1}{2b}\int^0_{-\infty}\exp(-\frac{x}{b})dx = \frac{1}{2b}[b \exp (-\frac{x}{b})]^0_{-\infty} = \frac{1}{2}$
+$$\int^0_{-\infty} \frac{1}{2b}\exp (\frac{x}{b})dx = \frac{1}{2b}\int^0_{-\infty}\exp(-\frac{x}{b})dx = \frac{1}{2b}[b \exp (-\frac{x}{b})]^0_{-\infty} = \frac{1}{2}$$
 
-두 구간에 대한 적분을 합치면 합이 1이 된다.
+- 두 구간에 대한 적분을 합치면 합이 1이 된다.
