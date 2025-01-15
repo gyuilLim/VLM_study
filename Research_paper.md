@@ -1,6 +1,6 @@
 ### VLM foundation
 
-~~- **CLIP(10)** : Learning transferable visual models from natural language supervision(2021)~~
+- ~~**CLIP(10)** : Learning transferable visual models from natural language supervision(2021)~~
     - **non-linear projection** : Bachman et al.(2019), Chen et al. (2020b)
     - **Gradient checkpointing**  : Griewank & Walther, 2000; Chen et al., 2016
     - **half-precision Adam statistics** : Dhariwalet al., 2020
@@ -9,8 +9,8 @@
 ### 3.2 VLM Pre-training Objectives
 
 - Contrastive objectives
-    ~~- **InfoNCE Loss(68)** : Representation learning with contrastive predictive coding(2018)~~
-    ~~- **NCE Loss(68)** : Noise-contrastive estimation: A new estimation principle for unnormalized statistical models(2010)~~
+    - ~~**InfoNCE Loss(68)** : Representation learning with contrastive predictive coding(2018)~~
+    - ~~**NCE Loss(68)** : Noise-contrastive estimation: A new estimation principle for unnormalized statistical models(2010)~~
     - **contrastive representeation learning**
         - **12** : Momentum contrast for unsupervised visual repre-sentation learning(2020)
     - **Image contrastive**
