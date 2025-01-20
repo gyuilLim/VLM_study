@@ -1,3 +1,7 @@
+### This markdown is a summary of key papers related to Vision-Language Models (VLM) compiled from the paper "Vision-Language Models for Vision Tasks: A Survey."
+
+---
+
 ### VLM foundation
 
 - ~~**CLIP(10)** : Learning transferable visual models from natural language supervision(2021)~~
