@@ -9,7 +9,7 @@
     - **Gradient checkpointing**  : Griewank & Walther, 2000; Chen et al., 2016
     - **half-precision Adam statistics** : Dhariwalet al., 2020
 - ~~**Representation learning(17)** : Scaling up visual and vision-language representation learning with noisy text supervision(2021)~~
-    - Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning 
+    - ~~Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning~~
 
 ### 3.2 VLM Pre-training Objectives
 
