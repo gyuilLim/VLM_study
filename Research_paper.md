@@ -5,9 +5,9 @@
 
 ### Model
 
-CLIP : Learning transferable visual models from natural language supervision(2021)
+CLIP(10) : Learning transferable visual models from natural language supervision(2021)
 
-ALIGN : Scaling up visual and vision-language representation learning with noisy text supervision(2021)
+ALIGN(17) : Scaling up visual and vision-language representation learning with noisy text supervision(2021)
 
 
 ### Dataset
