@@ -1,30 +1,6 @@
 ### This markdown is a summary of key papers related to Vision-Language Models (VLM) compiled from the paper "Vision-Language Models for Vision Tasks: A Survey."
 ---
 
-## Categorizing
-
-### Model
-
-CLIP(10) : Learning transferable visual models from natural language supervision(2021)
-
-ALIGN(17) : Scaling up visual and vision-language representation learning with noisy text supervision(2021)
-
-SLIP(64) : Self-supervision meets language-image pretraining(2022)
-
-
-### Dataset
-
-Conceptual Captions : A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning(2018)
-
-
-### Learning
-
-InfoNCE Loss(68) : Representation learning with contrastive predictive coding(2018)
-
-NCE Loss : Noise-contrastive estimation: A new estimation principle for unnormalized statistical models(2010)
-
----
-
 ### VLM foundation
 
 - ~~**CLIP(10)** : Learning transferable visual models from natural language supervision(2021)~~
