@@ -9,6 +9,8 @@ CLIP(10) : Learning transferable visual models from natural language supervision
 
 ALIGN(17) : Scaling up visual and vision-language representation learning with noisy text supervision(2021)
 
+SLIP(64) : Self-supervision meets language-image pretraining(2022)
+
 
 ### Dataset
 
@@ -38,22 +40,22 @@ NCE Loss : Noise-contrastive estimation: A new estimation principle for unnormal
     - ~~**InfoNCE Loss(68)** : Representation learning with contrastive predictive coding(2018)~~
     - ~~**NCE Loss(68)** : Noise-contrastive estimation: A new estimation principle for unnormalized statistical models(2010)~~
     - **contrastive representeation learning**
-        - **12** : Momentum contrast for unsupervised visual repre-sentation learning(2020)
+        - ~~**12** : MoCo : Momentum contrast for unsupervised visual repre-sentation learning(2020)~~
     - **Image contrastive**
-        - **64** : Self-supervision meets language-image pretraining(2022)
+        - ~~**64** : SLIP : Self-supervision meets language-image pretraining(2022)~~
     - **Image-text contrastive**
         - ~~**10** : CLIP~~
     - **Image-text-label contrastive**
         - **65** : Unified contrastive learning in image-text-label space(2022)
 - Generative objectives
-    - **Masked image modelling**
-        - **41** : Masked autoencoders are scalable vision learners(2022)
+    - **Masked image modelling**    
+        - **70** : Beit: Bert pre-training of image transformers(2021)
     - **Masked Language Modelling**
         - **14** : Bert: Pre-training of deep bidirectional transformers for language understanding(2018)
     - **Masked Cross-Modal Modelling**
         - **42** : Flava: A foundational language and vision alignment model(2022)
     - **Image-to-Text Generation**
-        - **19** : Coca: Contrastive captioners are image-text foundation
+        - ~~**19** : Coca: Contrastive captioners are image-text foundation~~
         models(2022)
 - Alignment objectives
     - **Image-Text mathcing(중 1)**
@@ -72,7 +74,7 @@ NCE Loss : Noise-contrastive estimation: A new estimation principle for unnormal
     - ~~**19** : Coca: Contrastive captioners are image-text foundation models(2022)~~
     - ~~**42 :** Flava: A foundational language and vision alignment model(2022)~~
 - **One-tower(중 1)**
-    - **43** : Image-and-language understanding from pixels only(2022)
+    - **43** : CLIPPO : Image-and-language understanding from pixels only(2022)
     - **44** :  Unifying vision-language representation space with single-tower transformer(2023)
 
 ### 3.4.1 Zero-shot Prediction
@@ -115,7 +117,6 @@ NCE Loss : Noise-contrastive estimation: A new estimation principle for unnormal
 ### 5.2 VLM Pre-training with Generative Objectives
 
 - 5.2.1 Masked Image Modelling(중 1)
-    - **~~41~~**
     - **70** : Beit: Bert pre-training of image transformers(2021)
 - 5.2.2 Masked Lanuage Modelling
     - ~~**71** : Coarse-to-fine vision-language pre-training with fusion in the backbone~~
