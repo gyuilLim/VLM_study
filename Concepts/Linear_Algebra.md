@@ -19,3 +19,5 @@ $B(\mathbf u, \mathbf v) = \mathbf u^T A \mathbf v$
 - $A$는 행렬(매개변수)
 - $A$가 단위 행렬(identity matrix)인 경우 내적이 된다.
 - $A$에 따라 벡터 간의 관계를 조정할 수 있다.
+
+### 

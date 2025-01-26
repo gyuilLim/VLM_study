@@ -22,7 +22,7 @@
     - **Image-text contrastive**
         - ~~**10** : CLIP~~
     - **Image-text-label contrastive**
-        - **65** : Unified contrastive learning in image-text-label space(2022)
+        - ~~**65** : UniCL : Unified contrastive learning in image-text-label space(2022)~~
 - Generative objectives
     - **Masked image modelling**    
         - **70** : Beit: Bert pre-training of image transformers(2021)

@@ -22,6 +22,8 @@ Conceptual Captions : A Cleaned, Hypernymed, Image Alt-text Dataset For Automati
 
 InfoNCE Loss(68) : Representation learning with contrastive predictive coding(2018)
 
-NCE Loss : Noise-contrastive estimation: A new estimation principle for unnormalized statistical models(2010)
+**Noise Contrastive Estimation** - NCE Loss : Noise-contrastive estimation: A new estimation principle for unnormalized statistical models(2010)
+
+**Image-text-label contrastive learning** - UniCL : Unified contrastive learning in image-text-label space(2022)
 
 ---
