@@ -12,6 +12,8 @@ MoCo(12) : Momentum contrast for unsupervised visual repre-sentation learning(20
 
 Coca(19) : Contrastive captioners are image-text foundation models(2022)
 
+LLaVA : Visual Instruction Tuning(2023)
+
 
 ### Dataset
 
