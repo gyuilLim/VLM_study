@@ -14,6 +14,8 @@ Coca(19) : Contrastive captioners are image-text foundation models(2022)
 
 LLaVA : Visual Instruction Tuning(2023)
 
+DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning(2025)
+
 
 ### Dataset
 
