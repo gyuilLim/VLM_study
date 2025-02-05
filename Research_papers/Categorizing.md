@@ -16,6 +16,8 @@ LLaVA : Visual Instruction Tuning(2023)
 
 DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning(2025)
 
+CLIP-Adapter: Better Vision-Language Models with Feature Adapters
+
 
 ### Dataset
 
