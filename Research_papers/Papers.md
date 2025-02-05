@@ -125,7 +125,7 @@
     - Transfer with Text-Visual Prompt Tuning
         - **149(UPT)** : Unified vision and language prompt learning(2022)
 - 6.3.2 Transfer via Feature Adaptation
-    - **33(Clip-adapter)** : Clip-adapter: Better vision-language models with feature adapters(2021)
+    - ~~**33(Clip-adapter)** : Clip-adapter: Better vision-language models with feature adapters(2021)~~
 - 6.3.3 Other Transfer Methods
     - pass
 
