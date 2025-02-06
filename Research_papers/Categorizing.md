@@ -16,9 +16,9 @@ LLaVA : Visual Instruction Tuning(2023)
 
 DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning(2025)
 
-CLIP-Adapter: Better Vision-Language Models with Feature Adapters
+CLIP-Adapter: Better Vision-Language Models with Feature Adapters(2021)
 
-BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
+BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation(2022)
 
 
 ### Dataset
