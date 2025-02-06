@@ -18,6 +18,8 @@ DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learni
 
 CLIP-Adapter: Better Vision-Language Models with Feature Adapters
 
+BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
+
 
 ### Dataset
 
