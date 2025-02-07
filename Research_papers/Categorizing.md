@@ -20,6 +20,8 @@ CLIP-Adapter: Better Vision-Language Models with Feature Adapters(2021)
 
 BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation(2022)
 
+BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models(2023)
+
 
 ### Dataset
 
