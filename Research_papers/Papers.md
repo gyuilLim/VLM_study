@@ -50,7 +50,7 @@
     - ~~**19** : Coca: Contrastive captioners are image-text foundation models(2022)~~
     - ~~**42 :** Flava: A foundational language and vision alignment model(2022)~~
 - **One-tower(중 1)**
-    - **43** : CLIPPO : Image-and-language understanding from pixels only(2022)
+    - ~~**43** : CLIPPO : Image-and-language understanding from pixels only(2022)~~
     - **44** :  Unifying vision-language representation space with single-tower transformer(2023)
 
 ### 3.4.1 Zero-shot Prediction
