@@ -22,6 +22,8 @@ BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Unde
 
 BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models(2023)
 
+CLIPPO : Image-and-language understanding from pixels only(2022)
+
 
 ### Dataset
 
