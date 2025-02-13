@@ -27,7 +27,7 @@
     - **Masked image modelling**    
         - **70** : Beit: Bert pre-training of image transformers(2021)
     - **Masked Language Modelling**
-        - **14** : Bert: Pre-training of deep bidirectional transformers for language understanding(2018)
+        - ~~**14** : Bert: Pre-training of deep bidirectional transformers for language understanding(2018)~~
     - **Masked Cross-Modal Modelling**
         - **42** : Flava: A foundational language and vision alignment model(2022)
     - **Image-to-Text Generation**
