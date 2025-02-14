@@ -25,7 +25,7 @@
         - ~~**65** : UniCL : Unified contrastive learning in image-text-label space(2022)~~
 - Generative objectives
     - **Masked image modelling**    
-        - **70** : Beit: Bert pre-training of image transformers(2021)
+        - ~~**70** : Beit: Bert pre-training of image transformers(2021)~~
     - **Masked Language Modelling**
         - ~~**14** : Bert: Pre-training of deep bidirectional transformers for language understanding(2018)~~
     - **Masked Cross-Modal Modelling**
@@ -93,7 +93,7 @@
 ### 5.2 VLM Pre-training with Generative Objectives
 
 - 5.2.1 Masked Image Modelling(중 1)
-    - **70** : Beit: Bert pre-training of image transformers(2021)
+    - ~~**70** : Beit: Bert pre-training of image transformers(2021)~~
 - 5.2.2 Masked Lanuage Modelling
     - ~~**71** : Coarse-to-fine vision-language pre-training with fusion in the backbone~~
 - 5.2.3 Masked Cross-Modal Modelling
