@@ -26,6 +26,8 @@ CLIPPO : Image-and-language understanding from pixels only(2022)
 
 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding(2019)
 
+BEiT: BERT Pre-Training of Image Transformers(2021)
+
 
 ### Dataset
 
