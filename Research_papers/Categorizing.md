@@ -28,6 +28,8 @@ BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 BEiT: BERT Pre-Training of Image Transformers(2021)
 
+LLaMA: Open and Efficient Foundation Language Models(2023)
+
 
 ### Dataset
 
