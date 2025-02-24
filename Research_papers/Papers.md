@@ -118,7 +118,7 @@
 
 - 6.3.1 Transfer via prompt tuning
     - Transfer with Text Prompt Tuning
-        - **31(CoOp)** : Learning to prompt for vision-language models(2022)
+        - ~~**31(CoOp)** : Learning to prompt for vision-language models(2022)~~
     - Transfer with Visual Prompt Tuning(중 1)
         - **148** : Retrieval-enhanced visual prompt learning for few-shot classification(2023)
         - **166** : Visual prompt tuning(2022)
