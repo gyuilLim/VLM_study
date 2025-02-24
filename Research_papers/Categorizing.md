@@ -30,6 +30,8 @@ BEiT: BERT Pre-Training of Image Transformers(2021)
 
 LLaMA: Open and Efficient Foundation Language Models(2023)
 
+CoOp : Learning to prompt for vision-language models(2022)
+
 
 ### Dataset
 
