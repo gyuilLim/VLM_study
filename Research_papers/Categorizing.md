@@ -46,4 +46,10 @@ InfoNCE Loss(68) : Representation learning with contrastive predictive coding(20
 
 **Image-text-label contrastive learning** - UniCL : Unified contrastive learning in image-text-label space(2022)
 
+### Evaluation Metric
+
+BLEU: a method for automatic evaluation of machine translation(2002)
+
+METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments(2005)
+
 ---
