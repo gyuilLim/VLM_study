@@ -52,5 +52,8 @@ BLEU: a method for automatic evaluation of machine translation(2002)
 
 METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments(2005)
 
-CIDEr
+ROUGE: A Package for Automatic Evaluation of Summaries(2004)
+
+CIDEr: Consensus-based Image Description Evaluation(2014)
+
 ---
