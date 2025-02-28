@@ -56,4 +56,6 @@ ROUGE: A Package for Automatic Evaluation of Summaries(2004)
 
 CIDEr: Consensus-based Image Description Evaluation(2014)
 
+SPICE: Semantic Propositional Image Caption Evaluation(2016)
+
 ---
