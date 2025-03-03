@@ -32,6 +32,8 @@ LLaMA: Open and Efficient Foundation Language Models(2023)
 
 CoOp : Learning to prompt for vision-language models(2022)
 
+Flamingo: a Visual Language Model for Few-Shot Learning
+
 
 ### Dataset
 
