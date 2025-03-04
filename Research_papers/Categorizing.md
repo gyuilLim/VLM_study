@@ -34,6 +34,8 @@ CoOp : Learning to prompt for vision-language models(2022)
 
 Flamingo: a Visual Language Model for Few-Shot Learning
 
+TinyLLaVA: A Framework of Small-scale Large Multimodal Models
+
 
 ### Dataset
 
