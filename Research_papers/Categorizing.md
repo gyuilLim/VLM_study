@@ -36,6 +36,8 @@ Flamingo: a Visual Language Model for Few-Shot Learning
 
 TinyLLaVA: A Framework of Small-scale Large Multimodal Models
 
+FuseMix: Data-Efficient Multimodal Fusion on a Single GPU
+
 
 ### Dataset
 
