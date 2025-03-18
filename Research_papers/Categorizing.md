@@ -65,3 +65,11 @@ CIDEr: Consensus-based Image Description Evaluation(2014)
 SPICE: Semantic Propositional Image Caption Evaluation(2016)
 
 ---
+
+### Parameter-Efficient Fine-Tuning(PEFT)
+
+LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS(2021)
+
+QLoRA: Efficient Finetuning of Quantized LLMs(2023)
+
+DoRA: Weight-Decomposed Low-Rank Adaptation(2024)
