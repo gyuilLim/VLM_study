@@ -59,7 +59,7 @@ $N$개의 관측 데이터로 구성된 샘플 $\mathcal{D}=\{ x^{(1)}, x^{(2)},
 - $\log ~ p(\mathcal{D}; \mu, \sigma) = \log ~ L(\theta)$
 
     $ = \log \prod_{n=1}^N\frac{1}{\sqrt{2\pi\sigma^2}}\exp \left( -\frac{(x^{(n)} - \mu)^2}{2\sigma^2} \right)$
-        
+
     $ = \log \prod_{n=1}^N\frac{1}{\sqrt{2\pi\sigma^2}} + \log \prod_{n=1}^{N} \exp \left( -\frac{(x^{(n)} - \mu)^2}{2\sigma^2} \right)$
 
     $ = \log \left( \frac{1}{\sqrt{2\pi\sigma^2}} \right)^N + \sum_{n=1}^{N} \left( -\frac{(x^{(n)} - \mu)^2}{2\sigma^2} \right)$
@@ -73,3 +73,18 @@ $$\sigma = \sqrt{\frac{1}{N}\sum^N_{n=1}(x^{(n)}-\hat \mu)^2}$$
 
 이다. 즉 결론은 샘플 데이터로부터 구해진 평균과 표준 편차로 모집단의 분포를 정규분포 형태로 추정할 수 있다는 것이다.
 
+# Gaussian Mxiture Model(GMM)
+
+GMM이란, 데이터가 여러개의 가우시안 분포(Gaussian Distribution)의 혼합으로 구성되어 있다고 가정하는 **확률 모델**이다.
+
+데이터가 하나의 정규분포를 따르지 않고 여러개의 정규분포가 섞여있는 형태. 아래와 같은 확률 밀도 함수로 표현된다.
+
+$$p(x) = \sum^k_{k=1} \pi_k \cdot \mathcal N(x|\mu_k, \Sigma_k)$$
+
+$K$ : 정규분포의 개수 (클러스터 개수)
+
+$\pi_k$ : k번째 정규분포의 가중치 (각 0~1 범위, 합은 1을 만족해야함)
+
+$\mathcal N(x|\mu_k, \Sigma_k)$ : 평균이 $\mu_k$이고 분산이 $\Sigma_k$을 따르는 정규분포
+
+$x$ : 관측 데이터
