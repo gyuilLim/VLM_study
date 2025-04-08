@@ -79,12 +79,58 @@ GMM이란, 데이터가 여러개의 가우시안 분포(Gaussian Distribution)�
 
 데이터가 하나의 정규분포를 따르지 않고 여러개의 정규분포가 섞여있는 형태. 아래와 같은 확률 밀도 함수로 표현된다.
 
-$$p(x) = \sum^k_{k=1} \pi_k \cdot \mathcal N(x|\mu_k, \Sigma_k)$$
+$$p(x) = \sum^K_{k=1} \phi_k \cdot \mathcal N(x;\mu_k, \mathbf \Sigma_k)$$
 
 $K$ : 정규분포의 개수 (클러스터 개수)
 
-$\pi_k$ : k번째 정규분포의 가중치 (각 0~1 범위, 합은 1을 만족해야함)
+$\phi_k$ : k번째 정규분포의 가중치 (각 0~1 범위, 합은 1을 만족해야함)
 
-$\mathcal N(x|\mu_k, \Sigma_k)$ : 평균이 $\mu_k$이고 분산이 $\Sigma_k$을 따르는 정규분포
+$\mathcal N(x;\mu_k, \mathbf \Sigma_k)$ : 평균이 $\mu_k$이고 분산이 $\mathbf \Sigma_k$을 따르는 정규분포
 
 $x$ : 관측 데이터
+
+매개변수를 포함하여 수식을 다시쓰면 아래와 같다.
+
+$$p(x;\Phi, \mu, \mathbf \Sigma) = \sum^K_{k=1} \phi_k \mathcal \cdot N(\mathbf x; \mu_k, \mathbf \Sigma_k)$$
+
+## Marginalization(주변화)
+
+Joint Probability(결합 확률)
+- $p(x,y)$
+- $x$와 $y$가 동시에 일어날 확률
+
+Marginal Probability(주변 확률)
+- $p(x), p(y)$
+- $x$와 $y$가 별개로 일어날 확률
+
+결합 확률에서 특정 확률 변수를 제거함으로써 주변 확률을 구할 수 있다. 이를 `주변화`라고 한다.
+
+예를 들어 확률 변수 $y$에 대한 주변화를 통해 주변 확률 $p(x)$를 구한다고 하면 아래와 같이 나타낼 수 있다.
+
+- 이산 변수인 경우 : $p(x) = \sum_y p(x,y)$
+- 연속 변수인 경우 : $p(x) = \int_y p(x,y)dy$
+
+곱셈 정리에 의해 결합 확률 $p(x,y) = p(x|y)p(y)$.
+
+## GMM의 매개변수 추정의 어려움
+
+단일 정규분포에서는 최대 우도 추정법으로 매개변수 $\mu$와 $\sigma$를 구할 수 있었다.
+
+하지만 여러개의 정규분포가 혼합되어있는 GMM은 최대 우도 추정법으로, 그러니까 해석적으로 매개변수를 구하기 어렵다.
+
+$$p(x;\Phi, \mu, \mathbf \Sigma) = \sum^K_{k=1} \phi_k \mathcal \cdot N(\mathbf x; \mu_k, \mathbf \Sigma_k)$$
+
+GMM은 위와 같이 표현할 수 있는데, 여기서 관측 데이터를 $\mathcal D$, 추정해야하는 매개변수 집합을 $\theta$ 라고 할 때 GMM의 Likelihood $p(\mathcal D; \theta)$ 는 아래와 같이 나타낼 수 있다.
+
+$$p(\mathcal D; \theta) = p(x^{(1)};\theta)p(x^{(2)};\theta) \cdots p(x^{(N)};\theta) \\ = \Pi^N_{n=1} p(x^{(n)};\theta)$$
+
+계산의 편의를 위해 로그를 취해 Log-likelihood로 재정의하면
+
+$$\log p(\mathcal D;\theta) = \log \Pi^N_{n=1} p(x^{(n)};\theta) \\ = \sum^N_{n=1} \log (\sum^K_{k=1} \phi_k \mathcal N(x^{(n)}; \mu_k, \Sigma_k))$$
+
+위 식에서 Log-likelihood 함수가 로그-합(log-sum) 형태로 정의되는 것을 확인할 수 있다.
+
+따라서 GMM의 매개변수 추정에서는 해석적으로 정답을 찾기 어려운 것이다.
+
+## EM Algorithm (Expectation-Maximization)
+
